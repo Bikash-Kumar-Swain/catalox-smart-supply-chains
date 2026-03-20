@@ -25,8 +25,8 @@ Modern supply chains face frequent disruptions due to factors like traffic, weat
 ## 🛠️ Tech Stack
 
 * **Frontend:** HTML, CSS, JavaScript
-* **Backend:** (Optional – if used) Node.js / Python
-* **APIs:** (Optional) Google Maps API
+* **Backend:** Node.js / Python
+* **APIs:** Google Maps API
 
 ---
 
@@ -50,8 +50,8 @@ Modern supply chains face frequent disruptions due to factors like traffic, weat
 
 ## 👨‍💻 Team
 
-* Bikash Kumar Swain (Team Lead)
-* [Teammate Name]
+* Bikash Kumar Swain (Team Leader)
+* Aditya Kumar Jha (Team Member)
 
 ---
 
@@ -67,7 +67,7 @@ Modern supply chains face frequent disruptions due to factors like traffic, weat
 ## 📌 How to Run
 
 1. Download or clone the repository
-2. Open `index.html` in your browser
+2. Open `catalox.html` in your browser
 3. Use the application
 
 ---
