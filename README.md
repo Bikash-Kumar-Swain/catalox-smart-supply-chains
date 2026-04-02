@@ -1,83 +1,92 @@
-# 🚀 CATALOX – Smart Supply Chain Optimizer
+# 🚀 CATALOX – Smart Supply Chains
 
-## 📌 Problem Statement
+> **Resilient Logistics and Dynamic Supply Chain Optimization**
 
-Modern supply chains face frequent disruptions due to factors like traffic, weather conditions, and inefficient route planning. These issues often lead to delivery delays, increased costs, and poor resource utilization.
-
----
-
-## 💡 Our Solution
-
-**CATALOX** is a smart web-based logistics optimization system that predicts delivery delays and suggests optimized routes using real-time factors such as traffic and weather conditions.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://your-username.github.io/catalox)
+[![Hackathon](https://img.shields.io/badge/GDG-Solution%20Challenge%202026-purple?style=for-the-badge)](#)
 
 ---
 
-## ⚙️ Features
+## 📌 About
 
-* 📍 Delivery Input System (Source & Destination)
-* ⏱️ Estimated Delivery Time Prediction
-* ⚠️ Delay Detection (based on traffic & weather)
-* 🔁 Smart Route Suggestions
-* 📊 Dashboard for Delivery Insights
+CATALOX is an AI-powered smart logistics platform that **preemptively detects and flags supply chain disruptions**, then **dynamically recommends optimized route adjustments** before localized bottlenecks cascade into broader delays.
+
+Built for the **GDG Solution Challenge** — *"Design a scalable system capable of continuously analyzing multifaceted transit data to preemptively detect and flag potential supply chain disruptions."*
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🔔 **Live Disruption Alerts** | Real-time scrolling ticker + notification panel with auto-refresh |
+| 🔮 **Predictive Risk Engine** | 24-hour AI disruption forecast before you ship |
+| 🌤️ **Auto Weather Detection** | City select → weather auto-fetched via Open-Meteo API |
+| 🗺️ **Real-Time Route Optimization** | Powered by OpenRouteService API |
+| 🌊 **Smart Global Shipping Lanes** | 20+ international ocean waypoint routes |
+| ✈️ **Great Circle Air Routes** | Accurate flight path visualization |
+| 🚛 **Multi-Modal Transport** | Road, Rail, Air, Water — smart disable for islands |
+| 📜 **Delivery History Table** | Auto-saves every route calculation |
+| 📊 **Analytics Charts** | Weekly delivery trends + mode distribution |
+| 💰 **Cost Estimator** | Real-time freight cost calculator |
+| 🌦️ **Weather Impact Matrix** | Delay factors per mode × weather condition |
+| ❓ **FAQ Section** | Enterprise-grade documentation |
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** HTML, CSS, JavaScript
-* **Backend:** Node.js / Python
-* **APIs:** Google Maps API
+| Technology | Purpose |
+|---|---|
+| HTML5 / CSS3 / JavaScript | Core frontend — no frameworks |
+| [Leaflet.js](https://leafletjs.com/) | Interactive maps |
+| [Chart.js](https://www.chartjs.org/) | Dashboard analytics charts |
+| [OpenRouteService API](https://openrouteservice.org/) | Real routing, geocoding & autocomplete |
+| [Open-Meteo API](https://open-meteo.com/) | Free real-time weather data |
+| [OpenStreetMap](https://openstreetmap.org/) | Map tiles |
 
 ---
 
-## 🧠 How It Works
+## 📁 Project Structure
 
-1. User enters delivery details (source, destination, conditions)
-2. System analyzes traffic and weather inputs
-3. Predicts whether delivery will be on time or delayed
-4. Suggests optimized route or action
-
----
-
-## 🎯 Use Cases
-
-* Logistics & Delivery Companies
-* E-commerce Platforms
-* Warehouse Management
-* Fleet Optimization
+```
+catalox/
+├── index.html    ← HTML structure
+├── style.css     ← All styles & animations
+├── script.js     ← All JavaScript logic
+└── README.md     ← This file
+```
 
 ---
 
-## 👨‍💻 Team
+## 🚀 Deploy on GitHub Pages
 
-* Bikash Kumar Swain (Team Leader)
-* Aditya Kumar Jha (Team Member)
+1. **Fork / upload** this repo to GitHub
+2. Go to **Settings → Pages**
+3. Source: `main` branch → `/ (root)` → **Save**
+4. Live at: `https://your-username.github.io/catalox`
 
----
-
-## 🚀 Future Enhancements
-
-* Real-time Google Maps Integration
-* Advanced AI/ML Prediction Models
-* Live Traffic API Integration
-* Mobile App Version
+> No build tools, no npm, no frameworks — just open `index.html`! ✅
 
 ---
 
-## 📌 How to Run
+## 🌍 Smart Transport Logic
 
-1. Download or clone the repository
-2. Open `catalox.html` in your browser
-3. Use the application
-
----
-
-## ⭐ Project Vision
-
-To build a smart and adaptive logistics system that minimizes delays and improves efficiency in modern supply chains.
+| Route | 🚛 Road | 🚂 Rail | 🚢 Ship | ✈️ Air |
+|---|:---:|:---:|:---:|:---:|
+| City ↔ City (mainland) | ✅ | ✅ | ❌ | ✅ |
+| Coastal ↔ Coastal | ✅ | ✅ | ✅ | ✅ |
+| Island ↔ Mainland | ❌ | ❌ | ✅ | ✅ |
+| Island ↔ Inland city | ❌ | ❌ | ❌ | ✅ |
 
 ---
 
-## 📎 Hackathon
+## 👥 Team
 
-Submitted for the **Google Solution Challenge**
+Built with ❤️ for **GDG Solution Challenge 2026**
+
+---
+
+## 📄 License
+
+MIT License — Free to use and modify.
