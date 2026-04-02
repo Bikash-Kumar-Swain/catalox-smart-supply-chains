@@ -964,5 +964,5 @@ acSelect = function(inputId, value) {
       } catch(e) {}
     }, 200);
   }
-}
+};
 
