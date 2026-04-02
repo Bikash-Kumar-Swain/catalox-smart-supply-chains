@@ -81,9 +81,11 @@ catalox/
 
 ---
 
-## 👥 Team
+## 👥 Team Members
 
-Built with ❤️ for **GDG Solution Challenge 2026**
+- **Bikash Kumar Swain**  (Team Leader)  
+- **Aditya Kumar Jha**  (Team Member) 
+Built with ❤️ for GDG Solution Challenge 2026
 
 ---
 
