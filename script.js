@@ -2,7 +2,7 @@
    CATALOX – Smart Supply Chains
    script.js
 ═══════════════════════════════════════════ */
-const ORS_KEY = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjFmMTJmOWE2OGEzYTQ0NTM4OGQ2OTcwYzUwNjNhOGY2IiwiaCI6Im11cm11cjY0In0=';
+const ORS_KEY = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjNmNDRlYWU4M2JlNjVhZDY2YWM0ZDVkNTRiMDM4MWIxZGRmMjMwMGY1NDI2NTc5Y2U4OGY1N2U4IiwiaCI6Im11cm11cjY0In0=';
 
 const MODE_CFG = {
   road:  { label:'🚛 Truck',      color:'#4f82ff', speedKmh: null },
